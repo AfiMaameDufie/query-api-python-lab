@@ -8,7 +8,7 @@
 	"updateContentCommand": "bash .devcontainer/setup.sh && bash .devcontainer/install-mongodb-db-tools.sh && bash .devcontainer/import.sh",
 	"postCreateCommand": "",
 	"postAttachCommand": "",
-	"postStartCommand": "jupyter trust && jupyter trust python/*.ipynb && jupyter notebook python/*.ipynb --allow-root",
+	"postStartCommand": "jupyter notebook python/*.ipynb --allow-root",
 	"customizations": {
 		"vscode": {
 			"extensions": [
