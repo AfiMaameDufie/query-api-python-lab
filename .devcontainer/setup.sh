@@ -8,12 +8,16 @@ echo ✅ Install Jupyter notebook
 echo ✅ ------------------------
 apt-get install python3 python3-pip -y --no-install-recommends  
 apt-get install jupyter-notebook -y --no-install-recommends  
-apt-get install ca-certificates curl git -y --no-install-recommends  
 
 echo ✅ Install Jupyter Python kernel
 echo ✅ -----------------------------
 # Python Kernel
 apt-get install python3-pymongo -y --no-install-recommends
+apt-get clean packages
+
+echo ✅ Install cURL
+echo ✅ ----------------
+apt-get install curl -y
 apt-get clean packages
 
 echo ✅ Install Node.js v23 
