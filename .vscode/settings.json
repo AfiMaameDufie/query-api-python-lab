@@ -10,6 +10,12 @@
         "jedee/.vscode/mcp.json: Mongodb Local MCP Server": {
             "allowedModels": [
                 "copilot/gpt-4.1"
-            ]        }
-    }
+            ]
+        }
+    },
+    "jupyter.kernels.excludePythonEnvironments": [
+        "/usr/bin/python3.12",
+        "/bin/python3.12"
+    ],
+    "python.defaultInterpreterPath": "/usr/bin/python3.11"
 }
