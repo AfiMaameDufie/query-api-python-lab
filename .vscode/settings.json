@@ -17,5 +17,11 @@
         "/usr/bin/python3.12",
         "/bin/python3.12",
         "/bin/python3.11"
-    ]
+    ],
+    "files.exclude": {
+        ".github/": true,
+        ".devcontainer/": true,
+        ".vscode/": true,
+        ".gitignore": true
+    }
 }
