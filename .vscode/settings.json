@@ -15,7 +15,7 @@
     },
     "jupyter.kernels.excludePythonEnvironments": [
         "/usr/bin/python3.12",
-        "/bin/python3.12"
-    ],
-    "python.defaultInterpreterPath": "/usr/bin/python3.11"
+        "/bin/python3.12",
+        "/bin/python3.11"
+    ]
 }
