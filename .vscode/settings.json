@@ -23,5 +23,6 @@
         ".devcontainer/": true,
         ".vscode/": true,
         ".gitignore": true
-    }
+    },
+    "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
